@@ -33,17 +33,18 @@ A `...` placeholder is valid Python, so a cell will run — and fail loudly — 
 
 Not covered in the lecture. Read and run; no blanks.
 
-| | |
-|---|---|
-| 03 Physics-informed neural network | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yongik-jang/ml-for-very-newbies/blob/main/notebooks/03_pinn.ipynb) |
+| | notebook | notes |
+|---|---|---|
+| 03 Physics-informed neural network | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yongik-jang/ml-for-very-newbies/blob/main/notebooks/03_pinn.ipynb) | [PDF](slide/03_pinn_notes.pdf) |
 
 `03` fits a damped pendulum from ten noisy points — once with data alone, once with the equation of motion
 added to the loss — using the same pieces as `01` and `02`: a network, a loss, autograd, and a training loop.
+The notes walk through the notebook section by section and point back to the relevant slides.
 
 ## Repository layout
 
 ```
-slide/        lecture slides (PDF)
+slide/        lecture slides (PDF), pinn_notes.pdf
 notebooks/    01_examples_*.ipynb, 02_mnist_*.ipynb, 03_pinn.ipynb
 ```
 

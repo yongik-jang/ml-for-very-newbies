@@ -35,7 +35,7 @@ Not covered in the lecture. Read and run; no blanks.
 
 | | notebook | notes |
 |---|---|---|
-| 03 Physics-informed neural network | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yongik-jang/ml-for-very-newbies/blob/main/notebooks/03_pinn.ipynb) | [PDF](slide/03_pinn_notes.pdf) |
+| 03 Physics-informed neural network | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yongik-jang/ml-for-very-newbies/blob/main/notebooks/03_pinn.ipynb) | [PDF](slide/pinn_notes.pdf) |
 
 `03` fits a damped pendulum from ten noisy points — once with data alone, once with the equation of motion
 added to the loss — using the same pieces as `01` and `02`: a network, a loss, autograd, and a training loop.
